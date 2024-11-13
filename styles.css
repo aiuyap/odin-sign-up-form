@@ -1,11 +1,15 @@
 :root {
-
+    --logo-size: 5rem;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
 }
 
 #container {
@@ -27,16 +31,21 @@ body div {
 }
 
 #logo {
-    height: 10vh;
+    height: 15vh;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     position: relative;
-    top: 30vh;
+    top: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #logo>span {
-    font-size: 3rem;
+    font-size: var(--logo-size);
+    font-family: norse-bold, sans-serif;
+}
+
+img {
+    width: var(--logo-size);
 }

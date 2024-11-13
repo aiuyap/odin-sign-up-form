@@ -1,0 +1,42 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+}
+
+body div {
+    height: 100vh;
+}
+
+#left-section {
+    width: 30vw;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+#main-section {
+    width: 70vw;
+}
+
+#logo {
+    height: 10vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo>span {
+    font-size: 3rem;
+}
